@@ -1,0 +1,14 @@
+@import
+    'partials/normalize';
+
+* {
+    box-sizing: border-box;
+
+    &::after,
+    &::before {
+        content: '';
+        clear: both;
+        display: block;
+        visibility: hidden;
+    }
+}
