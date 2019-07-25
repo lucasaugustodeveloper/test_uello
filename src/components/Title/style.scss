@@ -1,0 +1,26 @@
+.title {
+    margin: {
+        bottom: 50px;
+    }
+
+    &__text {
+        font-size: 40px;
+        color: #4b4b4d;
+    }
+
+    &__button {
+        button {
+            padding: 15px;
+            border: {
+                color: #e7374a;
+                style: solid;
+                width: 1px;
+                radius: 5px;
+            }
+            cursor: pointer;
+
+            background: none;
+            color: #e7374a;
+        }
+    }
+}
