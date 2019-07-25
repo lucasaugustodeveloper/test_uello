@@ -1,5 +1,6 @@
 @import
-    'partials/normalize';
+    'partials/normalize',
+    url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -11,4 +12,9 @@
         display: block;
         visibility: hidden;
     }
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
 }
