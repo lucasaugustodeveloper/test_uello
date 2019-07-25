@@ -1,0 +1,25 @@
+.header {
+    &__user {
+        &__img {
+            &__item {
+                display: block;
+                width: 40px;
+                height: 40px;
+                margin: {
+                    top: 12px;
+                }
+
+                border: {
+                    radius: 140px;
+                }
+            }
+        }
+        &__text {
+            color: #fff;
+            &__name {
+                font-size: 20px;
+                color: inherit;
+            }
+        }
+    }
+}
