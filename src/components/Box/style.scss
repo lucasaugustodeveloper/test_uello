@@ -1,0 +1,18 @@
+.box {
+    &__title {
+        font-size: 20px;
+        color: #757575;
+    }
+    &__children {
+        font-size: 16px;
+        margin: {
+            top: 5px;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+        text-transform: uppercase;
+        padding-left: 35px;
+        color: #323233;
+    }
+}

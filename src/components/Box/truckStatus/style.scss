@@ -1,0 +1,17 @@
+.status {
+    &__img {
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin: {
+            top: 2px;
+            left: 10px;
+        }
+    }
+    &__text {
+        font: {
+            weight: bold;
+        }
+        margin: 0;
+    }
+}
